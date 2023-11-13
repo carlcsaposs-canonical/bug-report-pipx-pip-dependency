@@ -5,8 +5,12 @@ description = ""
 authors = ["Carl Csaposs <carl.csaposs@canonical.com>"]
 readme = "README.md"
 
+[tool.poetry.scripts]
+check-version = "pipx_bug_report.main:main"
+
 [tool.poetry.dependencies]
 python = "^3.10"
+pip = ">=22.2"
 
 
 [build-system]
