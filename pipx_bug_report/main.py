@@ -1,4 +1,5 @@
 import subprocess
+import sys
 
 def main():
-    subprocess.run(["python3", "-m", "pip", "--version"])
+    subprocess.run([sys.executable, "-m", "pip", "--version"])
